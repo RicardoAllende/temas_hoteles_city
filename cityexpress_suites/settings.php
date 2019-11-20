@@ -690,7 +690,7 @@ if ($ADMIN->fulltree) {
     $temp->add($setting);
 
     // Slide Link text.
-    $name = 'theme_cityexpress_suites/faqs_link';
+    $name = 'theme_cityexpress_suites/faqs_url';
     $title = 'Url preguntas frecuentes';
     $description = 'Escriba aquí la url de las preguntas frecuentes';
     $default = '';
