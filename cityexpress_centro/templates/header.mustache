@@ -1,0 +1,81 @@
+{{!
+    // This file is part of Moodle - http://moodle.org/
+    //
+    // Moodle is free software: you can redistribute it and/or modify
+    // it under the terms of the GNU General Public License as published by
+    // the Free Software Foundation, either version 3 of the License, or
+    // (at your option) any later version.
+    //
+    // Moodle is distributed in the hope that it will be useful,
+    // but WITHOUT ANY WARRANTY; without even the implied warranty of
+    // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    // GNU General Public License for more details.
+    //
+    // You should have received a copy of the GNU General Public License
+    // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+    /**
+     * @package    theme_cityexpress_centro
+     * @copyright  2015 onwards LMSACE Dev Team (http://www.lmsace.com)
+     * @authors    LMSACE Dev Team
+     * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+     */
+}}
+{{!
+    Page header.
+}}
+
+
+{{>theme_cityexpress_centro/navbar}}
+
+{{{ theme_loader }}}
+
+<div id="site-header">
+
+    <div class="header-main {{#headerStyle}} theme-main-header {{/headerStyle}}">
+
+        <div class="container">
+
+            <a href="{{{ config.wwwroot }}}/?redirect=0" class="navbar-brand {{# logourl }}has-logo{{/ logourl }}
+                {{^ logourl }}
+                    hidden-sm-down
+                {{/ logourl }}
+                    ">
+                    {{# logourl}}
+                    <span class="logo ">
+                        <img src="{{logourl}}" alt="{{sitename}}">
+                    </span>
+                    {{/ logourl}}
+
+                {{^ logourl }}
+                    <span class="site-name hidden-sm-down">{{{ sitename }}}</span>
+                {{/ logourl }}
+            </a>
+
+            <button class="{{{primaryclass}}}" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+
+
+            <div class="right-elements" id="">
+              <div class="logo_hotel">
+                <span class="logo">
+                  <img src="{{{ config.wwwroot }}}/theme/cityexpress_centro/pix/CC_blanco.png">
+                </span>
+              </div>              
+              <div class="my_courses">                             
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
+                <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Mis cursos</a>                
+              </div>
+              {{#is_admin}}
+                <div class="my_dashboard">
+                    <i class="fa fa-pie-chart" aria-hidden="true"></i><br>
+                    <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Dashboard</a>
+                </div>
+              {{/is_admin}}
+
+
+            </div>
+        </div>
+
+        {{{ output.standard_after_main_region_html }}}
+    </div>
+</div>
