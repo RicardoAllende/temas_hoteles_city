@@ -679,4 +679,23 @@ if ($ADMIN->fulltree) {
     $settings->add($temp);
     /* Footer Settings end */
 
+    $temp = new admin_settingpage('theme_cityexpress_faqs_tab', 'Preguntas frecuentes');
+
+    // Course menu.
+    $name = 'theme_cityexpress/show_faqs';
+    $title = 'Mostrar preguntas frecuentes';
+    $description = 'Mostrar enlace a preguntas frecuentes';
+    $default = 1;
+    $setting = new admin_setting_configcheckbox($name, $title, $description, $default);
+    $temp->add($setting);
+
+    // Slide Link text.
+    $name = 'theme_cityexpress/faqs_link';
+    $title = 'Url preguntas frecuentes';
+    $description = 'Escriba aquí la url de las preguntas frecuentes';
+    $default = '';
+    $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_TEXT);
+    $temp->add($setting);
+
+    $settings->add($temp);
 }
