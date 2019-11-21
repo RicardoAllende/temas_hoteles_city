@@ -7779,3 +7779,12 @@ button.close, .moodle-dialogue-base button.closebutton {
         display: none;
     }
 }
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .703125rem;
+    background-color: #e9ecef;
+    padding: 0px;
+}
