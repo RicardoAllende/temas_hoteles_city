@@ -69,7 +69,7 @@ function header_contents() {
     if(isset($SESSION->dashboardCapability)){
         $dashboardCapability = $SESSION->dashboardCapability;
     }
-    $dashboardUrl = $CFG->wwwroot . '/local/hoteles_city_dashboard/estatus_curso.php';
+    
     $templatecontext = [
         'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
         'output' => $OUTPUT,
@@ -88,8 +88,8 @@ function header_contents() {
         "s_courses" => $scourses,
         'output' => $OUTPUT,
         "primaryclass" => $class,
-        'is_admin' => $dashboardCapability,
-        'dashboard_url' => $dashboardUrl,
+        'dashboardCapability' => $dashboardCapability,
+        
     ];
 
     return $templatecontext;

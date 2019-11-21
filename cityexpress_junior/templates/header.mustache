@@ -65,12 +65,12 @@
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
                 <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Mis cursos</a>                
               </div>
-              {{#is_admin}}
+              {{#dashboardCapability}}
                 <div class="my_dashboard">
                     <i class="fa fa-pie-chart" aria-hidden="true"></i><br>
-                    <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Dashboard</a>
+                    <a href="{{{ config.wwwroot }}}/local/hoteles_city_dashboard/estatus_curso.php" class="white-font">Dashboard</a>
                 </div>
-              {{/is_admin}}
+              {{/dashboardCapability}}
 
 
             </div>
