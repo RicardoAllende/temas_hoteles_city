@@ -608,6 +608,22 @@ function theme_cityexpress_marketingspot1() {
                 $content .= html_writer::start_tag('div', array('class' => 'info-block'));
                 $content .= html_writer::tag('h2', html_writer::tag('b', $title1) ." ".$title2, array('style' => $hide2) );
                 $content .= html_writer::tag('p', $description);
+                $show_faqs = theme_cityexpress_get_setting('show_faqs');
+                if($show_faqs){
+                    $faqs_url = theme_cityexpress_get_setting('faqs_url');
+                    if(empty($faqs_url)){
+                        $faqs_url = '#';
+                    }
+
+                    $faqsImage = $CFG->wwwroot . '/theme/cityexpress/images/faqs_icon.png';
+                    $content .= "
+                    <div class='text-right'>
+                        <a href='{$faqs_url}' style='margin-right: 5%; font-weight: bolder; cursor: pointer;'>
+                            Preguntas Frecuentes &nbsp; <img style='height: 64px;' src='{$faqsImage}'>
+                        </a>
+                    </div>
+                    ";
+                }
                 $content .= html_writer::end_tag('div');
             }
             $content .= html_writer::end_tag('div');
