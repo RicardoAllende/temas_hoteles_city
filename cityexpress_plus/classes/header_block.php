@@ -64,6 +64,12 @@ function header_contents() {
     $shome = get_string('home');
     $cmenuhide = (!$cmenuhide) ? 0 : 1;
     $scourses = get_string('courses');
+    global $SESSION;
+    $dashboardCapability = false;
+    if(isset($SESSION->dashboardCapability)){
+        $dashboardCapability = $SESSION->dashboardCapability;
+    }
+    $dashboardUrl = $CFG->wwwroot . '/local/hoteles_city_dashboard/estatus_curso.php';
     $templatecontext = [
         'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
         'output' => $OUTPUT,
@@ -82,7 +88,8 @@ function header_contents() {
         "s_courses" => $scourses,
         'output' => $OUTPUT,
         "primaryclass" => $class,
-        'is_admin' => is_siteadmin(),
+        'is_admin' => $dashboardCapability,
+        'dashboard_url' => $dashboardUrl,
     ];
 
     return $templatecontext;
