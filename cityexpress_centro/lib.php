@@ -903,7 +903,7 @@ function theme_cityexpress_centro_completion_get_activities_in_course($courseid)
         $toReturn->total = count($activities);
         $toReturn->completed = $activities_complete;
         $toReturn->msg = "{$toReturn->completed} de {$toReturn->total}";
-        $toReturn->percentage = intval($toReturn->completed / $toReturn->total) * 100;
+        $toReturn->percentage = intval($toReturn->completed / $toReturn->total * 100) ;
     }
     return $toReturn;
 }
