@@ -89,6 +89,7 @@ function header_contents() {
         'output' => $OUTPUT,
         "primaryclass" => $class,
         'dashboardCapability' => $dashboardCapability,
+        'isloggedin' => isloggedin(),
         
     ];
 

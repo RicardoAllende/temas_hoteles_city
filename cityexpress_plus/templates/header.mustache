@@ -60,11 +60,13 @@
                 <span class="logo">
                   <img src="{{{ config.wwwroot }}}/theme/cityexpress_plus/pix/CEP_blanco.png">
                 </span>
-              </div>              
+              </div>
+              {{#isloggedin}}              
               <div class="my_courses">                             
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
                 <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Mis cursos</a>                
               </div>
+              {{/isloggedin}}
               {{#dashboardCapability}}
                 <div class="my_dashboard">
                     <i class="fa fa-pie-chart" aria-hidden="true"></i><br>
