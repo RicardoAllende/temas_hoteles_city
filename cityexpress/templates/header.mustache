@@ -61,12 +61,12 @@
                   <img src="{{{ config.wwwroot }}}/theme/cityexpress/pix/CE.png">
                 </span>
               </div>     
-              {{#dashboardCapability}}
+              {{#isloggedin}}
                 <div class="my_courses">                             
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
                     <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Mis cursos</a>                
                 </div>
-              {{/dashboardCapability}}
+              {{/isloggedin}}
               {{#dashboardCapability}}
                 <div class="my_dashboard">
                     <i class="fa fa-pie-chart" aria-hidden="true"></i><br>
