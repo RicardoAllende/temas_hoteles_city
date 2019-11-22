@@ -182,6 +182,7 @@ require(['jquery'], function($) {
             $(this).hide();
         }
     })
+    $('.frontpage-course-list-enrolled').addClass(' row container ');
 });
 
 
