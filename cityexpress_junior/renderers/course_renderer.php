@@ -125,9 +125,9 @@ class theme_cityexpress_junior_core_course_renderer extends core_course_renderer
         if(!$this->coursesWerePrinted){
             global $USER;
             if(is_siteadmin()){ // En caso de ser administrador mostrar todos los cursos
-                $courses = get_courses();
+                $courses = get_courses($categoryid="all", $sort="c.fullname ASC");
             }else{ // Sólo los cursos en los que se está inscrito
-                $courses = enrol_get_all_users_courses($USER->id, true, array('id'));
+                $courses = enrol_get_all_users_courses($USER->id, true, array('id'), 'fullname ASC');
             }
             foreach($courses as $course){
                 $content .= $this->coursecat_coursebox($chelper, $course);
