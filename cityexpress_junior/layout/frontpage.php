@@ -25,6 +25,11 @@ defined('MOODLE_INTERNAL') || die();
 
 // Get the HTML for the settings bits.
 
+if(!isloggedin()){
+    global $CFG;
+    redirect($CFG->wwwroot . '/login/index.php');
+}
+
 $html = theme_cityexpress_junior_get_html_for_settings($OUTPUT, $PAGE);
 if (right_to_left()) {
     $regionbsid = 'region-bs-main-and-post';

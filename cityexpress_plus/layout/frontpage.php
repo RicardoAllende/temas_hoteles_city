@@ -23,6 +23,11 @@
  */
 defined('MOODLE_INTERNAL') || die();
 
+if(!isloggedin()){
+    global $CFG;
+    redirect($CFG->wwwroot . '/login/index.php');
+}
+
 // Get the HTML for the settings bits.
 
 $html = theme_cityexpress_plus_get_html_for_settings($OUTPUT, $PAGE);
