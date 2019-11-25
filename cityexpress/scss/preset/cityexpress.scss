@@ -7789,7 +7789,7 @@ button.close, .moodle-dialogue-base button.closebutton {
     padding: 0px;
 }
 
-.fa-comment:before {
-    content: "";
-    display: none;
+.pull-right {
+    float: right !important;
+    display: none !important;
 }

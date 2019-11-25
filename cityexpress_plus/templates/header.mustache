@@ -54,14 +54,14 @@
 
             <button class="{{{primaryclass}}}" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
 
-
+            {{#isloggedin}}
             <div class="right-elements" id="">
               <div class="logo_hotel">
                 <span class="logo">
                   <img src="{{{ config.wwwroot }}}/theme/cityexpress_plus/pix/CEP_blanco.png">
                 </span>
               </div>
-              {{#isloggedin}}              
+                            
               <div class="my_courses">                             
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i><br>
                 <a href="{{{ config.wwwroot }}}/course/index.php" class="white-font">Mis cursos</a>                

@@ -7268,7 +7268,7 @@ body.pagelayout-frontpage .load-content {
 .pagelayout-login {
     #page {
         padding-top: 50px;
-        padding-bottom: 180px;
+        padding-bottom: 225px;
         margin-top: 0;
         background-image: $loginbg;
     }
@@ -7787,4 +7787,9 @@ button.close, .moodle-dialogue-base button.closebutton {
     font-size: .703125rem;
     background-color: #e9ecef;
     padding: 0px;
+}
+
+.pull-right {
+    float: right !important;
+    display: none !important;
 }
