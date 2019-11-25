@@ -7793,3 +7793,10 @@ button.close, .moodle-dialogue-base button.closebutton {
     float: right !important;
     display: none !important;
 }
+
+.title-text a{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
