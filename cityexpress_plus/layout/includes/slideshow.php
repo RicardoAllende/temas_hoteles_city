@@ -211,9 +211,13 @@ function slideshow_textcontent($slide, $general) {
         'class' => $textcontentclass,
         'style' => 'width:'.$slide['cont_width'].';'
         ));
+        
+    global $USER;
+    $fullname = $USER->firstname . ' ' . $USER->lastname;
+    $fullname = strtoupper($fullname);
     $slidecaptionarray = array('class' => "", 'data-animation' => $slide['contentAclass']);
-    $slidecontent .= html_writer::tag('h1', $slide['slidecaption'], $slidecaptionarray);
-    $slidecontent .= html_writer::tag('p', $slide['slidedesc'], array('class' => "", 'data-animation' => $slide['contentAclass']));
+    $slidecontent .= html_writer::tag('h1', 'BIENVENIDO', $slidecaptionarray);
+    $slidecontent .= html_writer::tag('p', $fullname, array('class' => "", 'data-animation' => $slide['contentAclass']));
 
     // if (!empty($slide['slideurl1']) && !empty($slide['slideurltext1'])) {
     //     $slideurlarray = array('target' => $slide['btntarget1'], 'class' => 'btn btn-primary '.
