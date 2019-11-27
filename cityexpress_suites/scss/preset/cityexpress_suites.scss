@@ -4244,6 +4244,7 @@ img.userpicture {
 .paging {
     font-family: $font_5, $font_6, $font_7;
     padding: 10px 0;
+    display: none !important;
     &:empty {
         padding: 0;
     }
