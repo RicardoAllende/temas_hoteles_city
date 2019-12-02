@@ -121,7 +121,7 @@ class theme_cityexpress_core_course_renderer extends core_course_renderer {
         //             array('title' => get_string('numberofcourses'), 'class' => 'numberofcourse'));
         // }
 
-        $content = "<div class='row container'>";
+        $content = "<div class='row'>";
         if(!$this->coursesWerePrinted){
             global $USER;
             if(is_siteadmin()){ // En caso de ser administrador mostrar todos los cursos
