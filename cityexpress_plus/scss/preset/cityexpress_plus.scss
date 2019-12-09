@@ -247,10 +247,11 @@ $content_width: 40%;
     font-style: normal;
 }
 body {
-    font-family: $font_0, $font_1, $font_2, $font_3;
+    //font-family: $font_0, $font_1, $font_2, $font_3;
     font-size: 16px;
     padding-top: 0;
     background: $white;
+    font-family: Gotham;
 }
 h1 {
     @extend %extend_1;
@@ -7273,6 +7274,7 @@ body.pagelayout-frontpage .load-content {
         padding-bottom: 225px;
         margin-top: 0;
         background-image: $loginbg;
+        background-size: 100%;
     }
     #region-main .card {
         border: 0;
