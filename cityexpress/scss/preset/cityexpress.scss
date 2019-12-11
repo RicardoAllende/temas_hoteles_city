@@ -60,6 +60,20 @@ $font_6: Helvetica;
 $font_7: sans-serif;
 $font_8: FontAwesome;
 $font_9: fontawesome;
+$font_10: GothamBlack;
+$font_11: GothamBold;
+$font_12: Gotham-Book;
+$font_13: Gotham-ExtraLight;
+$font_14: Gotham-ExtraLightItalic;
+$font_15: Gotham-Light;
+$font_16: Gotham-LightItalic;
+$font_17: GothamMedium;
+$font_18: GothamNarrow-Book;
+$font_19: GothamNarrow-Thin;
+$font_20: GothamNarrow-XLight;
+$font_21: GothamRounded-Medium;
+$font_22: GothamUltra;
+$font_23: GothamXNarrow-Light;
 $fontwww: '/fonts/' !default;
 
 $footbgimg: url([[pix:theme|home/footbgimg]]) !default;
@@ -110,6 +124,103 @@ $url_32: url([[pix:theme|ic-backward-img]]);
 $url_33: url([[pix:theme|bg-pattern02]]);
 $url_34: url([[pix:theme|bg-pattern01]]);
 $url_35: url([[pix:theme|bg-black-trans65]]);
+$url_36: url($fontwww+'gotham-black/GothamBlack.eot');
+$url_37: url($fontwww+'gotham-black/GothamBlack.eot?#iefix');
+$url_38: url($fontwww+'gotham-black/GothamBlack.woff2');
+$url_39: url($fontwww+'gotham-black/GothamBlack.woff');
+$url_40: url($fontwww+'gotham-black/GothamBlack.ttf');
+$url_41: url($fontwww+'gotham-black/GothamBlack.svg#GothamBlack');
+
+$url_42: url($fontwww+'gotham-bold/GothamBold.eot');
+$url_43: url($fontwww+'gotham-bold/GothamBold.eot?#iefix');
+$url_44: url($fontwww+'gotham-bold/GothamBold.woff2');
+$url_45: url($fontwww+'gotham-bold/GothamBold.woff');
+$url_46: url($fontwww+'gotham-bold/GothamBold.ttf');
+$url_47: url($fontwww+'gotham-bold/GothamBold.svg#GothamBold');
+
+$url_48: url($fontwww+'gotham-book/Gotham-Book.eot');
+$url_49: url($fontwww+'gotham-book/Gotham-Book.eot?#iefix');
+$url_50: url($fontwww+'gotham-book/Gotham-Book.woff2');
+$url_51: url($fontwww+'gotham-book/Gotham-Book.woff');
+$url_52: url($fontwww+'gotham-book/Gotham-Book.ttf');
+$url_53: url($fontwww+'gotham-book/Gotham-Book.svg#Gotham-Book');
+
+$url_54: url($fontwww+'gotham-extralight/Gotham-ExtraLight.eot');
+$url_55: url($fontwww+'gotham-extralight/Gotham-ExtraLight.eot?#iefix');
+$url_56: url($fontwww+'gotham-extralight/Gotham-ExtraLight.woff2');
+$url_57: url($fontwww+'gotham-extralight/Gotham-ExtraLight.woff');
+$url_58: url($fontwww+'gotham-extralight/Gotham-ExtraLight.ttf');
+$url_59: url($fontwww+'gotham-extralight/Gotham-ExtraLight.svg#Gotham-ExtraLight');
+
+$url_60: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.eot');
+$url_61: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.eot?#iefix');
+$url_62: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.woff2');
+$url_63: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.woff');
+$url_64: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.ttf');
+$url_65: url($fontwww+'gotham-extralight-italic/Gotham-ExtraLightItalic.svg#Gotham-ExtraLightItalic');
+
+$url_66: url($fontwww+'gotham-light/Gotham-Light.eot');
+$url_67: url($fontwww+'gotham-light/Gotham-Light.eot?#iefix');
+$url_68: url($fontwww+'gotham-light/Gotham-Light.woff2');
+$url_69: url($fontwww+'gotham-light/Gotham-Light.woff');
+$url_70: url($fontwww+'gotham-light/Gotham-Light.ttf');
+$url_71: url($fontwww+'gotham-light/Gotham-Light.svg#Gotham-Light');
+
+$url_72: url($fontwww+'gotham-light-italic/Gotham-LightItalic.eot');
+$url_73: url($fontwww+'gotham-light-italic/Gotham-LightItalic.eot?#iefix');
+$url_74: url($fontwww+'gotham-light-italic/Gotham-LightItalic.woff2');
+$url_75: url($fontwww+'gotham-light-italic/Gotham-LightItalic.woff');
+$url_76: url($fontwww+'gotham-light-italic/Gotham-LightItalic.ttf');
+$url_77: url($fontwww+'gotham-light-italic/Gotham-LightItalic.svg#Gotham-LightItalic');
+
+$url_78: url($fontwww+'gotham-medium/GothamMedium.eot');
+$url_79: url($fontwww+'gotham-medium/GothamMedium.eot?#iefix');
+$url_80: url($fontwww+'gotham-medium/GothamMedium.woff2');
+$url_81: url($fontwww+'gotham-medium/GothamMedium.woff');
+$url_82: url($fontwww+'gotham-medium/GothamMedium.ttf');
+$url_83: url($fontwww+'gotham-medium/GothamMedium.svg#GothamMedium');
+
+$url_84: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.eot');
+$url_85: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.eot?#iefix');
+$url_86: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.woff2');
+$url_87: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.woff');
+$url_88: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.ttf');
+$url_89: url($fontwww+'gotham-narrow-book/GothamNarrow-Book.svg#GothamNarrow-Book');
+
+$url_90: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.eot');
+$url_91: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.eot?#iefix');
+$url_92: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.woff2');
+$url_93: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.woff');
+$url_94: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.ttf');
+$url_95: url($fontwww+'gotham-narrow-thin/GothamNarrow-Thin.svg#GothamNarrow-Thin');
+
+$url_96: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.eot');
+$url_97: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.eot?#iefix');
+$url_98: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.woff2');
+$url_99: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.woff');
+$url_100: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.ttf');
+$url_101: url($fontwww+'gotham-narrow-xlight/GothamNarrow-XLight.svg#GothamNarrow-XLight');
+
+$url_102: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.eot');
+$url_103: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.eot?#iefix');
+$url_104: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.woff2');
+$url_105: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.woff');
+$url_106: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.ttf');
+$url_107: url($fontwww+'gotham-rounded-medium/GothamRounded-Medium.svg#GothamRounded-Medium');
+
+$url_108: url($fontwww+'gotham-ultra/GothamUltra.eot');
+$url_109: url($fontwww+'gotham-ultra/GothamUltra.eot?#iefix');
+$url_110: url($fontwww+'gotham-ultra/GothamUltra.woff2');
+$url_111: url($fontwww+'gotham-ultra/GothamUltra.woff');
+$url_112: url($fontwww+'gotham-ultra/GothamUltra.ttf');
+$url_113: url($fontwww+'gotham-ultra/GothamUltra.svg#GothamUltra');
+
+$url_114: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.eot');
+$url_115: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.eot?#iefix');
+$url_116: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.woff2');
+$url_117: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.woff');
+$url_118: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.ttf');
+$url_119: url($fontwww+'gotham-xnarrow-light/GothamXNarrow-Light.svg#GothamXNarrow-Light');
 
 $content_width: 40%;
 
@@ -246,12 +357,110 @@ $content_width: 40%;
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: $font_10;
+    src: $url_36;
+    src: $url_37 format('embedded-opentype'), $url_38 format('woff2'), $url_39 format('woff'), $url_40 format('truetype'), $url_41 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_11;
+    src: $url_42;
+    src: $url_43 format('embedded-opentype'), $url_44 format('woff2'), $url_45 format('woff'), $url_46 format('truetype'), $url_47 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_12;
+    src: $url_48;
+    src: $url_49 format('embedded-opentype'), $url_50 format('woff2'), $url_51 format('woff'), $url_52 format('truetype'), $url_53 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_13;
+    src: $url_54;
+    src: $url_55 format('embedded-opentype'), $url_56 format('woff2'), $url_57 format('woff'), $url_58 format('truetype'), $url_59 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_14;
+    src: $url_60;
+    src: $url_61 format('embedded-opentype'), $url_62 format('woff2'), $url_63 format('woff'), $url_64 format('truetype'), $url_65 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_15;
+    src: $url_66;
+    src: $url_67 format('embedded-opentype'), $url_68 format('woff2'), $url_69 format('woff'), $url_70 format('truetype'), $url_71 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_16;
+    src: $url_72;
+    src: $url_73 format('embedded-opentype'), $url_74 format('woff2'), $url_75 format('woff'), $url_76 format('truetype'), $url_77 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_17;
+    src: $url_78;
+    src: $url_79 format('embedded-opentype'), $url_80 format('woff2'), $url_81 format('woff'), $url_82 format('truetype'), $url_83 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_18;
+    src: $url_84;
+    src: $url_85 format('embedded-opentype'), $url_86 format('woff2'), $url_87 format('woff'), $url_88 format('truetype'), $url_89 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_19;
+    src: $url_90;
+    src: $url_91 format('embedded-opentype'), $url_92 format('woff2'), $url_93 format('woff'), $url_94 format('truetype'), $url_95 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_20;
+    src: $url_96;
+    src: $url_97 format('embedded-opentype'), $url_98 format('woff2'), $url_99 format('woff'), $url_100 format('truetype'), $url_101 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_21;
+    src: $url_102;
+    src: $url_103 format('embedded-opentype'), $url_104 format('woff2'), $url_105 format('woff'), $url_106 format('truetype'), $url_107 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_22;
+    src: $url_108;
+    src: $url_109 format('embedded-opentype'), $url_110 format('woff2'), $url_111 format('woff'), $url_112 format('truetype'), $url_113 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: $font_23;
+    src: $url_114;
+    src: $url_115 format('embedded-opentype'), $url_116 format('woff2'), $url_117 format('woff'), $url_118 format('truetype'), $url_119 format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     //font-family: $font_0, $font_1, $font_2, $font_3;
     font-size: 16px;
     padding-top: 0;
     background: $white;
-    font-family: Gotham;
+    font-family: $font_17;
 }
 h1 {
     @extend %extend_1;
